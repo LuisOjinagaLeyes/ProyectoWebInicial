@@ -1,0 +1,783 @@
+/* Base estilos */
+body,html {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    background-image: url(Imágenes/Fondo\ del\ sitio.jpg);
+    background-size:cover;
+    background-position: center;
+    scroll-behavior: smooth;
+}
+
+header,section,footer{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1000;
+} 
+/*estructura principal */
+
+header {
+    height: 150px;
+    padding-top: 10px;
+    box-sizing: content-box;
+    background-color: #ec6811bd;
+}
+
+#Banner {
+    background-image: url(Imágenes/Banner.jpg);
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+
+#marca {
+    width: 305px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Acme', sans-serif;
+    font-size: 32px;
+}
+
+.h1_color {
+    color:hsl(56, 100%, 50%);
+    font-weight: bold;
+}
+/* Inicio btn principal */
+#btn_principal {
+    width: 350px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-left: 10px;
+    float: left;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    text-align: center;
+    color: rgba(214, 15, 15, 0);
+}
+
+#btn_principal a {
+    color: rgb(255, 238, 0);
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Acme', sans-serif;
+}
+
+.btn_principal1 {
+    width: 100%;
+    background-color: rgb(140, 26, 150);
+    transition: background-color 1s linear;
+    -webkit-transition: background-color 1s linear;
+    -moz-transition: background-color 1s linear;
+    -ms-transition: background-color 1s linear;
+    -o-transition: background-color 1s linear;
+}
+
+.btn_principal1:hover {
+    background-color: #3ca8da;
+}
+
+/* Fin btn principal */
+/* Inicio btn secundario */
+#btn_secundario{
+    width: 150px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    text-align: center;
+}
+
+#btn_secundario a {
+    display: block;
+    color: rgb(255, 238, 0);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Acme', sans-serif;
+}
+
+.btn_secundario1 {
+    width: 100%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: rgba(214, 57, 57, 0.849);
+    transition: background-color 1s linear;
+    -webkit-transition: background-color 1s linear;
+    -moz-transition: background-color 1s linear;
+    -ms-transition: background-color 1s linear;
+    -o-transition: background-color 1s linear;
+}
+
+.btn_secundario1:hover {
+    background-color: #073f91;
+}
+/* Fin btn secundario */
+
+#sec1 {
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: content-box;
+    padding-top: 10px;
+    background-color: #ec6811bd;
+}
+
+#Remeras ,#Tazas,#Llaveros,#Peluches ,#Figuras_Colección,#Mochilas{
+    margin:10px;
+    padding:10px;
+    height:230px;
+    width: 300px;
+    float:left;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#Remeras {
+    background-image: url(Imágenes/Ropa.jpg);
+}
+
+#Tazas {
+    background-image: url(Imágenes/Tazas.jpg);
+}
+
+#Llaveros {
+    background-image: url(Imágenes/Llaveros.jpg);
+}
+
+#Peluches {
+    background-image: url(Imágenes/Peluches.jpg);
+}
+
+#Figuras_Colección {
+    background-image: url(Imágenes/Figuras\ Coleccionable.jpg);
+}
+
+#Mochilas {
+    background-image: url(Imágenes/Mochilas.jpg);
+}
+
+#sec2 {
+    height: 500px;
+    background-color: #ec6811bd;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: content-box;
+    padding-top: 10px;
+}
+
+#caja2_sec1 {
+    width: 460px;
+    height: 480px;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+    margin: 10px;
+}
+
+.h3_Cuestionario {
+    background-color: rgba(187, 14, 14, 0);
+    color: black;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Acme', sans-serif;
+}
+
+.txt_color {
+    color: #9a0ca7e3;
+    font-weight: bold;
+    font-family: 'Acme', sans-serif;
+}
+
+#caja2_sec2 {
+    width: 460px;
+    height: 480px;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+    margin: 10px;
+    overflow: auto;
+}
+
+.h4_txt {
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+}
+
+.p_txt_sec2 {
+    font-family: 'Acme', sans-serif;
+}
+
+#sec3 {
+    height: 500px;
+    background-color: #ec6811bd;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: content-box;
+    padding-top: 10px;
+}
+
+#Carrusel_redes {
+    width: 940px;
+    height: 100px;
+    box-sizing: border-box;
+    float: left;
+    margin: 10px;
+}
+
+.h2_txt {
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    font-size: 21px;
+}
+/* Inicio btn redes */
+#btn_redes {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    text-align: center;
+}
+
+#btn_redes a {
+    color: rgb(0, 0, 0);
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Acme', sans-serif;
+    padding: 10px 24px;
+}
+
+.btn_redes1 {
+    width: 100%;
+    background-color: #eceff3;
+    transition: background-color 1s linear;
+    -webkit-transition: background-color 1s linear;
+    -moz-transition: background-color 1s linear;
+    -ms-transition: background-color 1s linear;
+    -o-transition: background-color 1s linear;
+}
+
+.btn_redes1:hover {
+    background-color: #0d4fb1;
+}
+
+.btn_redes2 {
+    width: 100%;
+    background-color: #fcd248;
+    transition: background-color 1s linear;
+    -webkit-transition: background-color 1s linear;
+    -moz-transition: background-color 1s linear;
+    -ms-transition: background-color 1s linear;
+    -o-transition: background-color 1s linear;
+}
+
+.btn_redes2:hover {
+    background-color:#da4d3d;
+}
+/* Fin btn redes */
+
+#Gif_Facebook,#Gif_Instagram {
+    width: 460px;
+    height: 350px;
+    background-color: rgba(0, 100, 0, 0.925);
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+    margin: 10px;
+}
+
+.Gif_Facebook{
+    background-image: url(Imágenes/Video_de_facebook_AdobeExpress.gif);
+    background-position:center ;
+    background-size: cover;
+}
+
+.Gif_Instagram {
+    background-image: url(Imágenes/Video_de_Instagram_Figuras_de_colección.GIF);
+    background-position: center;
+    background-size: cover;
+}
+
+#contenedor_sec4{
+    background-color: #ec6811bd;
+}
+
+#h5_estilo{
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+}
+
+.color_bg {
+    background-color: rgb(12, 90, 235);
+    color: rgb(240, 235, 235);
+    transition: background-color 1s linear;
+    -webkit-transition: background-color 1s linear;
+    -moz-transition: background-color 1s linear;
+    -ms-transition: background-color 1s linear;
+    -o-transition: background-color 1s linear;
+}
+
+.color_bg:hover {
+    background-color: rgb(224, 49, 18);
+}
+
+.bg_card_carousel1 {
+    background:-webkit-linear-gradient(left ,#dc7130 10%,#696613 100%,#5e8da8 100%,#cfb04a 100%);
+}
+
+.bg_card {
+    background:-webkit-linear-gradient(left ,#dc7130 10%,#696613 100%,#5e8da8 100%,#cfb04a 100%)
+}
+
+.bg_Modal1 {
+    background:-webkit-linear-gradient(left ,#dc7130 10%,#696613 100%,#5e8da8 100%,#cfb04a 100%)
+}
+
+footer {
+    height: 350px;
+    background-color: #ec6811bd;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 10px;
+    box-sizing: content-box;
+}
+
+#marca_pdpag {
+    width: 305px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Inicio btn redessociales */
+#btn_redessociales {
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    text-align: center;
+    background-color: rgba(57, 157, 214, 0.849);
+}
+
+#btn_redessociales a {
+    display: block;
+    color: rgb(255, 238, 0);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Acme', sans-serif;
+}
+/* Fin btn redessociales */
+
+#btn_arriba {
+    width: 50px;
+    height: 50px;
+    right: 10px;
+    bottom: 10px;
+    position: fixed;
+    box-sizing: border-box;
+    background-image: url(Imágenes/up-arrow.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#btn_arriba a {
+    color: #00000000;
+    padding: 20px;
+}
+
+/* Inicio btn mapa */
+#btn_mapa {
+    width: 100px;
+    height: 10px;
+    position: relative;
+    top: 155px;
+    left: 850px;
+}
+
+#btn_mapa ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+#btn_mapa ul li {
+    flex-grow: 1;
+    text-align: center;
+}
+
+#btn_mapa ul li a {
+    display: block;
+    color: rgb(255, 238, 0);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Acme', sans-serif;
+    padding: 10px;
+}
+
+.btn_mapa1 {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: rgb(100, 50, 219);
+    transition: background-color 1s linear;
+    -webkit-transition: background-color 1s linear;
+    -moz-transition: background-color 1s linear;
+    -ms-transition: background-color 1s linear;
+    -o-transition: background-color 1s linear;
+}
+
+.btn_mapa1:hover {
+    background-color: red;
+}
+/* Fin btn mapa */
+
+.h3_txt {
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Acme', sans-serif;
+}
+
+#Horarios{
+    width: 192px;
+    height: 250px;
+    background-color: rgba(240, 128, 128, 0);
+    margin: 10px;
+    padding: 10px;
+    float: left;
+    box-sizing: border-box;
+    box-sizing: content-box;
+    font-weight: bold;
+    font-family: 'Acme', sans-serif;
+}
+
+.txt_copy {
+    padding-top: 160px;
+    margin-top: 100px;
+    margin-right: 240px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Adaptación a dispositivos a 600 a 1024px */
+@media all and (min-width: 600px) and (max-width: 1023px) {
+    header,section,footer{
+        width: 580px;
+    } 
+    /*estructura principal */
+    
+    header {
+        height: 130px;
+    }
+    
+    #Banner {
+        height: 390px;
+    }
+    
+    h1 {
+        font-size: 30px;
+    }
+
+    #btn_principal{
+        width: 290px;
+        height: 50px;
+        margin-top: 15px;
+    }
+    
+    #btn_secundario{
+        width: 130px;
+    }
+
+    #sec1 {
+        height: 300px;
+    }
+
+    #Remeras ,#Tazas,#Llaveros,#Peluches ,#Figuras_Colección,#Mochilas{
+        height:130px;
+        width: 173px;
+    }
+    
+    #sec2 {
+        height: 300px;
+    }
+    
+    #caja2_sec1 {
+        width: 270px;
+        height: 280px;
+    }
+    
+    #caja2_sec2 {
+        width: 270px;
+        height: 280px;
+    }
+    
+    #sec3 {
+        height: 300px;
+    }
+    
+    #Carrusel_redes {
+        width: 560px;
+        height: 70px;
+    }
+    
+    .h2_txt {
+        font-size: 18px;
+    }
+    
+    #btn_redes a {
+        padding: 0px 0px;
+    }
+    
+    #Gif_Facebook {
+        width: 270px;
+        height: 190px;
+    }
+    
+    #Gif_Instagram {
+        width: 270px;
+        height: 190px;
+    }
+    
+    #contenedor_sec4 {
+        height: 600px;
+    }
+    
+    #modulo1 {
+        height: 292px;
+    }
+    
+    #modulo2 {
+        height: 309px;
+    }
+
+    footer {
+        height: 330px;
+    }
+
+    #btn_redessociales {
+        width: 130px;
+    }
+    
+    #btn_arriba {
+        width: 21px;
+        height: 35px;
+    }
+    
+    #btn_mapa {
+        width: 90px;
+        top: 155px;
+        left: 470px;
+    }
+
+    #btn_mapa ul li a{
+        padding: 14px;
+    }
+
+    .h3_txt {
+        font-size: 20px;
+    }
+
+    #Horarios{
+        width: 190px;
+        height: 100px;
+        margin: 10px;
+        padding: 0px;
+        float: none;
+    }
+    
+    .txt_copy {
+        padding-top: 60px;
+        margin-top: 80px;
+        margin-right: 0px;
+    }
+}
+
+@media all and (max-width: 599px) {
+    header,section,footer{
+        width: 100%;
+    } 
+    /*estructura principal */
+    
+    header {
+        height: auto;
+        position: relative;
+    }
+    
+    #Banner {
+        height: 200px;
+    }
+    
+    #marca {
+        width: 100%;
+        height: auto;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    #btn_principal{
+        width: 100%;
+        height: auto;
+        margin-top: 0%;
+        margin-left: 0%;
+        float: none;
+    }
+    
+    #btn_secundario{
+        display: none;
+    }
+    
+    #sec1 {
+        height: auto;
+        display: inline-block;
+    }
+    
+    #Remeras ,#Tazas , #Llaveros, #Peluches, #Figuras_Colección, #Mochilas {
+        width: 94%;
+        height: 450px;
+        margin: 3%;
+        float: none;
+        display: inline-block;
+    }
+    
+    #sec2 {
+        height: auto;
+        display: inline-block;
+    }
+    
+    #caja2_sec1 , #caja2_sec2{
+        width: 94%;
+        height: 400px;
+        margin: 3%;
+        float: none;
+        display: inline-block;
+    }
+    
+    #sec3 {
+        height: auto;
+        display: inline-block;
+    }
+    
+    #Carrusel_redes {
+        width: 94%;
+        height: 100px;
+        float: none;
+        margin: 3%;
+        display: inline-block;
+    }
+    
+    .h2_txt {
+        font-size: 20px;
+    }
+    
+    #btn_redes {
+        display: block;
+    }
+    
+    #btn_redes a {
+        padding: 0px 11px;
+    }
+    
+    .btn_redes1,.btn_redes2 {
+        width: 100%;
+    }
+    
+    #Gif_Facebook , #Gif_Instagram{
+        width: 94%;
+        height: 300px;
+        float: none;
+        margin: 3%;
+        display: inline-block;
+    }
+    
+    #contenedor_sec4 {
+        height: auto;
+    }
+    
+    #modulo1 {
+        height: auto;
+    }
+    
+    #modulo2 {
+        height: auto;
+    }
+    
+    footer {
+        height: auto;
+        display: inline-block;
+    }
+    
+    #marca_pdpag {
+        width: 100%;
+        height: auto;
+    }
+    
+    #btn_redessociales {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+    
+    #btn_arriba {
+        display: none;
+    }
+    
+    #btn_mapa {
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 0%;
+        left: 0%;
+    }
+    #btn_mapa ul {
+        display: block;
+    }
+    
+    #Horarios {
+        height: auto;
+        float: none;
+    }
+    
+    .txt_copy {
+        display: none;
+    }
+}
